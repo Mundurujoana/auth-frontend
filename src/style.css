@@ -1,0 +1,107 @@
+/* AuthForms.css */
+
+/* Common styles for both login and registration forms */
+.form-container {
+          background: linear-gradient(135deg, #00b0d8, #6a52b3);
+          color: white;
+          text-align: center;
+          padding: 40px;
+          border-radius: 10px;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+          max-width: 500px;
+          margin: 100px auto;
+        }
+        
+        .form-container h2 {
+          font-size: 28px;
+          margin-bottom: 20px;
+        }
+        
+        .form-group {
+          margin: 10px 0;
+        }
+        
+        /* Login form specific styles */
+        #username,
+        #password {
+          background: rgba(255, 255, 255, 0.2);
+          border: none;
+          border-bottom: 2px solid white;
+          color: white;
+          font-size: 16px;
+          padding: 10px;
+          width: 100%;
+          margin: 10px 0;
+          transition: border-color 0.3s;
+        }
+        
+        #username::placeholder,
+        #password::placeholder {
+          color: rgba(255, 255, 255, 0.7);
+        }
+        
+        #username:focus,
+        #password:focus {
+          border-color: #6a52b3;
+        }
+        
+        button {
+          background: #6a52b3;
+          color: white;
+          font-size: 16px;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background 0.3s;
+        }
+        
+        button:hover {
+          background: #00b0d8;
+        }
+        
+        /* Registration form specific styles */
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+          background: rgba(255, 255, 255, 0.2);
+          border: none;
+          border-bottom: 2px solid white;
+          color: white;
+          font-size: 16px;
+          padding: 10px;
+          width: 100%;
+          margin: 10px 0;
+          transition: border-color 0.3s;
+        }
+        
+        input[type="text"]::placeholder,
+        input[type="email"]::placeholder,
+        input[type="password"]::placeholder {
+          color: rgba(255, 255, 255, 0.7);
+        }
+        
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="password"]:focus {
+          border-color: #6a52b3;
+        }
+        
+        .error-message {
+          color: #ff6b6b;
+          font-size: 14px;
+          margin: 10px 0;
+        }
+        
+        /* Additional styles for links */
+        a {
+          color: #00b0d8;
+          text-decoration: none;
+          transition: color 0.3s;
+        }
+        
+        a:hover {
+          color: #6a52b3;
+        }
+        
+        
